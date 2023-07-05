@@ -5,11 +5,12 @@
 ## Installation
 Requires Anaconda or Miniconda<br />
 
-#### Create an environment
+### Create an environment
 ```
 conda create -n NMGG python=3.9
 ```
-#### Install Tensorflow
+### Install Tensorflow
+For GPU:
 ```
 conda install -c conda-forge cudatoolkit=11.8.0
 python3 -m pip install nvidia-cudnn-cu11==8.6.0.163 tensorflow==2.12.*
@@ -20,7 +21,11 @@ source $CONDA_PREFIX/etc/conda/activate.d/env_vars.sh
 # Verify install:
 python3 -c "import tensorflow as tf; print(tf.config.list_physical_devices('GPU'))"
 ```
-#### Install other requirements
+For CPU:
+```
+pip install tensorflow-cpu==2.12.*
+```
+### Install other requirements
 ```
 pip install -r requirements.txt
 ```
