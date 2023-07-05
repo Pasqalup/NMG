@@ -6,7 +6,7 @@ Start by cloning this repository:
 ```
 git clone https://github.com/Pasqalup/NMGG.git
 ```
-**Find all DELETE_ME files found in the [notebooks](notebooks/) and delete them**
+**Find all DELETE_ME files found in the [notebooks](notebooks/) folder and delete them**
 
 ## Installation
 Requires Anaconda or Miniconda<br />
