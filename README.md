@@ -1,6 +1,12 @@
 # NMGG - A Neural Music Generator GAN
 
+## Usage
 
+Start by cloning this repository:
+```
+git clone https://github.com/Pasqalup/NMGG.git
+```
+**Find all DELETE_ME files found in the [notebooks](notebooks/) and delete them**
 
 ## Installation
 Requires Anaconda or Miniconda<br />
