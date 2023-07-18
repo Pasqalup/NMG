@@ -29,18 +29,21 @@ source $CONDA_PREFIX/etc/conda/activate.d/env_vars.sh
 # Verify install:
 python3 -c "import tensorflow as tf; print(tf.config.list_physical_devices('GPU'))"
 ```
-WSL:  
+#### WSL [^1]:
 > See https://docs.nvidia.com/cuda/wsl-user-guide/index.html   
 Follow instructions for Linux installation
   
-Windows Native:  
+#### Windows Native [^1][^2]:
 > See https://github.com/microsoft/tensorflow-directml-plugin#tensorflow-directml-plugin-    
   
-For CPU:
+#### For CPU [^1]:
 ```
 pip install tensorflow-cpu==2.12.*
 ```
-### Install other requirements
+### Install other dependencies
 ```
 pip install -r requirements.txt
 ```
+
+[^1]: Not yet tested
+[^2]: This software is still under early development and you may run into issues. It is recommended that you use WSL Instead.
