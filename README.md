@@ -1,10 +1,10 @@
-# NMGG - A Neural Music Generator GAN
+# NMG - A Neural Music Generator
 
 ## Usage
 
 Start by cloning this repository:
 ```
-git clone https://github.com/Pasqalup/NMGG.git'
+git clone https://github.com/Pasqalup/NMG.git'
 cd NMGG
 ```
 **Find all DELETE_ME files found in the [notebooks/](notebooks/) folder and delete them**
@@ -15,7 +15,7 @@ cd NMGG
 
   - ### Create an environment
     ```
-    conda create -n NMGG python=3.9
+    conda create -n NMG python=3.9
     ```
   - ### Install Tensorflow
      #### Linux GPU:
