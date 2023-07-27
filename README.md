@@ -5,7 +5,7 @@
 Start by cloning this repository:
 ```
 git clone https://github.com/Pasqalup/NMG.git'
-cd NMGG
+cd NMG
 ```
 **Find all DELETE_ME files found in the [notebooks/](notebooks/) folder and delete them**
 
